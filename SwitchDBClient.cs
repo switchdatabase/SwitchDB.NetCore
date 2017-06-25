@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Extensions.MonoHttp;
 using System;
