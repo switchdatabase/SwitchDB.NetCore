@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Version>2.0.0-beta</Version>
+    <PackageId>SwitchAPI.Connector</PackageId>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Authors>Mert Sarac</Authors>
+    <Company>Switch Database</Company>
+    <Product>Switch Database API Connector</Product>
+    <Description>Switch API and Switch Database connector library.</Description>
+	<DebugType>Full</DebugType>
+	<Copyright>2017 - Switch Database</Copyright>
+	<PackageProjectUrl>https://www.switchdatabase.com/</PackageProjectUrl>
+	<PackageIconUrl>https://www.switchdatabase.com/images/nuget.png</PackageIconUrl>
+	<RepositoryUrl>https://github.com/switchdatabase/SwitchDB.NetCore</RepositoryUrl>
+	<PackageTags>switch database switchdb</PackageTags>
+	<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp.NetCore" Version="105.2.3" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.0" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.0-beta7" />
+  </ItemGroup>
+
+</Project>
