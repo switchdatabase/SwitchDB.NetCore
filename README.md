@@ -8,56 +8,6 @@ Switch API is the primary endpoint of data sevices and Switch DB's platform. You
 - SDK version: 1.0.0
 - Build date: 2017-06-25
 
-<a name="frameworks-supported"></a>
-## Platform support
-
-| Platform                        | Version | Compatibility Percentage | Description                                                            |
-|---------------------------------|---------|--------------------------|------------------------------------------------------------------------|
-| ASP.NET Core                    | 1.0     | 100%                     |                                                                        |
-| Mono                            | 2.0     | 82%                      | WebSockets and async methods not working.                              |
-| Mono                            | 3.5     | 82%                      | WebSockets and async methods not working.                              |
-| Mono                            | 4.0     | 96%                      | WebSockets not working.                                                |
-| Mono                            | 4.5     | 100%                     |                                                                        |
-| .NET Core + Platform Extensions | -       | 100%                     |                                                                        |
-| .NET Core                       | 1.0     | 100%                     |                                                                        |
-| .NET Core                       | 1.1     | 100%                     |                                                                        |
-| .NET Core                       | 1.0     | 100%                     |                                                                        |
-| .NET Standard                   | 1.0     | 80.67%                   | It is not recommended to use it on projects.                           |
-| .NET Standard                   | 1.1     | 80.67%                   | It is not recommended to use it on projects.                           |
-| .NET Standard                   | 1.2     | 80.67%                   | It is not recommended to use it on projects.                           |
-| .NET Standard                   | 1.3     | 84.67%                   | WebSockets not working.                                                |
-| .NET Standard                   | 1.4     | 84.67%                   | WebSockets not working.                                                |
-| .NET Standard                   | 1.5     | 84.67%                   | WebSockets not working.                                                |
-| .NET Standard                   | 1.6     | 100%                     |                                                                        |
-| .NET Standard                   | 2.0     | 100%                     |                                                                        |
-| .NET Framework                  | 1.1     | 65.33%                   | It is not recommended to use it on projects.                           |
-| .NET Framework                  | 2.0     | 78.67%                   | It is not recommended to use it on projects.                           |
-| .NET Framework                  | 3.0     | 78.67%                   | It is not recommended to use it on projects.                           |
-| .NET Framework                  | 3.5     | 82%                      | It is not recommended to use it on projects.                           |
-| .NET Framework                  | 4.0     | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.5     | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.5.1   | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.5.2   | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.6     | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.6.1   | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.6.2   | 96%                      | Json StringEnumConverter not working.                                  |
-| .NET Framework                  | 4.7     | 96%                      | Json StringEnumConverter not working.                                  |
-| Silverlight                     | 2.0     | 78.67%                   | It is not recommended to use it on projects.                           |
-| Silverlight                     | 3.0     | 80%                      | It is not recommended to use it on projects.                           |
-| Silverlight                     | 4.0     | 91.33%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
-| Silverlight                     | 5.0     | 94%                      | MD5, Json serialization, Json deserialization and SSL protocol errors. |
-| Windows                         | 8.0     | 92%                      | MD5 issues.                                                            |
-| Windows                         | 8.1     | 92%                      | MD5 issues.                                                            |
-| Windows                         | 10.0    | 93.33%                   | MD5 issues.                                                            |
-| Windows Phone Silverlight       | 7.0     | 79.33%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
-| Windows Phone Silverlight       | 7.1     | 80%                      | MD5, Json serialization, Json deserialization and SSL protocol errors. |
-| Windows Phone Silverlight       | 8.0     | 92.67%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
-| Windows Phone Silverlight       | 8.1     | 92.67%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
-| Windows Phone                   | -       | 90.67%                   | MD5 issues.                                                            |
-| Xamarin Android                 | -       | 96%                      | Json serialization and deserialization issues.                         |
-| Xamarin iOS                     | -       | 96%                      | Json serialization and deserialization issues.                         |
-
-
 ## Installation
 The library provides in NuGet.
 
@@ -133,6 +83,56 @@ namespace Example
     }
 }
 ```
+
+<a name="frameworks-supported"></a>
+## Platform support
+
+| Platform                        | Version | Compatibility Percentage | Description                                                            |
+|---------------------------------|---------|--------------------------|------------------------------------------------------------------------|
+| ASP.NET Core                    | 1.0     | 100%                     |                                                                        |
+| Mono                            | 2.0     | 82%                      | WebSockets and async methods not working.                              |
+| Mono                            | 3.5     | 82%                      | WebSockets and async methods not working.                              |
+| Mono                            | 4.0     | 96%                      | WebSockets not working.                                                |
+| Mono                            | 4.5     | 100%                     |                                                                        |
+| .NET Core + Platform Extensions | -       | 100%                     |                                                                        |
+| .NET Core                       | 1.0     | 100%                     |                                                                        |
+| .NET Core                       | 1.1     | 100%                     |                                                                        |
+| .NET Core                       | 1.0     | 100%                     |                                                                        |
+| .NET Standard                   | 1.0     | 80.67%                   | It is not recommended to use it on projects.                           |
+| .NET Standard                   | 1.1     | 80.67%                   | It is not recommended to use it on projects.                           |
+| .NET Standard                   | 1.2     | 80.67%                   | It is not recommended to use it on projects.                           |
+| .NET Standard                   | 1.3     | 84.67%                   | WebSockets not working.                                                |
+| .NET Standard                   | 1.4     | 84.67%                   | WebSockets not working.                                                |
+| .NET Standard                   | 1.5     | 84.67%                   | WebSockets not working.                                                |
+| .NET Standard                   | 1.6     | 100%                     |                                                                        |
+| .NET Standard                   | 2.0     | 100%                     |                                                                        |
+| .NET Framework                  | 1.1     | 65.33%                   | It is not recommended to use it on projects.                           |
+| .NET Framework                  | 2.0     | 78.67%                   | It is not recommended to use it on projects.                           |
+| .NET Framework                  | 3.0     | 78.67%                   | It is not recommended to use it on projects.                           |
+| .NET Framework                  | 3.5     | 82%                      | It is not recommended to use it on projects.                           |
+| .NET Framework                  | 4.0     | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.5     | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.5.1   | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.5.2   | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.6     | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.6.1   | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.6.2   | 96%                      | Json StringEnumConverter not working.                                  |
+| .NET Framework                  | 4.7     | 96%                      | Json StringEnumConverter not working.                                  |
+| Silverlight                     | 2.0     | 78.67%                   | It is not recommended to use it on projects.                           |
+| Silverlight                     | 3.0     | 80%                      | It is not recommended to use it on projects.                           |
+| Silverlight                     | 4.0     | 91.33%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
+| Silverlight                     | 5.0     | 94%                      | MD5, Json serialization, Json deserialization and SSL protocol errors. |
+| Windows                         | 8.0     | 92%                      | MD5 issues.                                                            |
+| Windows                         | 8.1     | 92%                      | MD5 issues.                                                            |
+| Windows                         | 10.0    | 93.33%                   | MD5 issues.                                                            |
+| Windows Phone Silverlight       | 7.0     | 79.33%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
+| Windows Phone Silverlight       | 7.1     | 80%                      | MD5, Json serialization, Json deserialization and SSL protocol errors. |
+| Windows Phone Silverlight       | 8.0     | 92.67%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
+| Windows Phone Silverlight       | 8.1     | 92.67%                   | MD5, Json serialization, Json deserialization and SSL protocol errors. |
+| Windows Phone                   | -       | 90.67%                   | MD5 issues.                                                            |
+| Xamarin Android                 | -       | 96%                      | Json serialization and deserialization issues.                         |
+| Xamarin iOS                     | -       | 96%                      | Json serialization and deserialization issues.                         |
+
  
  ## Authors
 
