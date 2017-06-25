@@ -46,7 +46,17 @@ namespace Example
             var filters = new List<Where>();
             filters.Add(new Where { column = "isActive", type = WhereOperations.equal, value = true });
 
-            List<dynamic> returnedItems = db.List(new Query { count = itemCount, list = "Users", order = new Order { by = "id", type = OrderTypes.DESC }, page = 0, where = filters });
+            List<dynamic> returnedItems = db.List(new Query
+                    {
+                        count = itemCount,
+                        list = "Users",
+                        order = new Order {
+                            by = "id",
+                            type = OrderTypes.DESC
+                        },
+                        page = 0,
+                        where = filters
+                    });
             
             // Add
             db.Add("TestList", new Test { Name = "Lorem", Surname = "Ipsum" });
