@@ -12,7 +12,7 @@ Switch API is the primary endpoint of data sevices and Switch DB's platform. You
 The library provides in NuGet.
 
 ```
-Install-Package SwitchAPI.Connector
+Install-Package SwitchAPI.Connector -Pre
 ```
 
 <a name="getting-started"></a>
