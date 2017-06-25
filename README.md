@@ -5,7 +5,7 @@
 Switch API is the primary endpoint of data sevices and Switch DB's platform. You can do adding, editing, deleting or listing data works to your database with query operations by using this low-level API based on HTTP.
 
 - API version: 1.2.1
-- SDK version: 1.0.0
+- SDK version: 2.0.0-beta
 - Build date: 2017-06-25
 
 ## Installation
